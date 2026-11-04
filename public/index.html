@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fitness Buddy — Your AI Health Coach</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💪</text></svg>" />
+</head>
+<body>
+  <!-- ── App Shell ─────────────────────────────────── -->
+  <div class="app">
+
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <div class="sidebar-logo">
+        <span class="logo-icon">💪</span>
+        <span class="logo-text">Fitness Buddy</span>
+      </div>
+
+      <nav class="quick-topics">
+        <p class="sidebar-label">Quick Topics</p>
+        <button class="topic-btn" data-msg="Suggest a 20-minute full-body home workout for a beginner.">🏋️ Home Workout</button>
+        <button class="topic-btn" data-msg="Give me a healthy and simple meal plan for today.">🥗 Meal Ideas</button>
+        <button class="topic-btn" data-msg="I need some motivation to stay consistent with my fitness goals.">🔥 Motivation</button>
+        <button class="topic-btn" data-msg="Help me build a daily fitness habit. Where do I start?">📅 Habit Building</button>
+        <button class="topic-btn" data-msg="What are some good stretches to do after a workout?">🧘 Stretching</button>
+        <button class="topic-btn" data-msg="I want to lose weight. What should my workout and diet focus on?">⚖️ Weight Loss</button>
+        <button class="topic-btn" data-msg="Suggest high-protein snack ideas for muscle building.">💪 Muscle Gain</button>
+        <button class="topic-btn" data-msg="How much water should I drink daily during exercise?">💧 Hydration Tips</button>
+      </nav>
+
+      <div class="sidebar-footer">
+        <button id="clearChatBtn" class="clear-btn">🗑️ Clear Chat</button>
+        <p class="powered-by">Powered by <strong>IBM Granite</strong></p>
+      </div>
+    </aside>
+
+    <!-- Main Chat Area -->
+    <main class="chat-main">
+      <!-- Header -->
+      <header class="chat-header">
+        <div class="header-info">
+          <span class="header-avatar">💪</span>
+          <div>
+            <h1 class="header-title">Fitness Buddy</h1>
+            <p class="header-subtitle">Your AI-Powered Health &amp; Fitness Coach</p>
+          </div>
+        </div>
+        <div class="header-badge">
+          <span class="badge-dot"></span>
+          IBM Granite AI
+        </div>
+      </header>
+
+      <!-- Chat Window -->
+      <div class="chat-window" id="chatWindow">
+        <!-- Welcome Message (injected by JS) -->
+      </div>
+
+      <!-- Typing indicator -->
+      <div class="typing-indicator" id="typingIndicator" style="display:none">
+        <span class="typing-avatar">💪</span>
+        <div class="typing-dots">
+          <span></span><span></span><span></span>
+        </div>
+        <span class="typing-text">Fitness Buddy is thinking…</span>
+      </div>
+
+      <!-- Input Bar -->
+      <div class="input-bar">
+        <textarea
+          id="userInput"
+          class="user-input"
+          placeholder="Ask me about workouts, meals, motivation…"
+          rows="1"
+          maxlength="2000"
+        ></textarea>
+        <button id="sendBtn" class="send-btn" title="Send">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="22" y1="2" x2="11" y2="13"></line>
+            <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+          </svg>
+        </button>
+      </div>
+      <p class="disclaimer">Not a substitute for professional medical advice. Consult your doctor before starting any new fitness program.</p>
+    </main>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
