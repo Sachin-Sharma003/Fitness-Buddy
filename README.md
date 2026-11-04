@@ -1,22 +1,22 @@
-# 💪 Fitness Buddy — AI Health & Fitness Coach
+# Fitness Buddy — AI Health & Fitness Coach
 
 > **AICTE Problem Statement #13** — An AI-powered conversational fitness assistant built with **IBM Granite** via **IBM Cloud watsonx.ai**.
 
 ---
 
-## 🌟 Features
+## Features
 
 | Feature | Description |
 |---|---|
-| 🏋️ **Home Workouts** | Tailored workout routines for any fitness level |
-| 🥗 **Meal Planning** | Simple, nutritious meal and snack suggestions |
-| 🔥 **Motivation** | Daily inspiration and habit-building tips |
-| 📅 **Consistency Coach** | Helps track habits and celebrate progress |
-| 💬 **Conversational AI** | Natural multi-turn chat powered by IBM Granite |
+|  **Home Workouts** | Tailored workout routines for any fitness level |
+|  **Meal Planning** | Simple, nutritious meal and snack suggestions |
+|  **Motivation** | Daily inspiration and habit-building tips |
+|  **Consistency Coach** | Helps track habits and celebrate progress |
+|  **Conversational AI** | Natural multi-turn chat powered by IBM Granite |
 
 ---
 
-## 🏗️ Architecture
+##  Architecture
 
 ```
 Fitness Buddy
@@ -34,7 +34,7 @@ Fitness Buddy
 
 ---
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### 1. Prerequisites
 - Node.js ≥ 18
@@ -113,12 +113,12 @@ Navigate to **[http://localhost:3000](http://localhost:3000)**
 
 ---
 
-## 🛡️ Disclaimer
+##  Disclaimer
 
 Fitness Buddy provides general wellness information. It is **not** a substitute for professional medical advice. Always consult a healthcare professional before starting a new fitness program.
 
 ---
 
-## 📄 License
+##  License
 
 MIT © AICTE Project 2024
