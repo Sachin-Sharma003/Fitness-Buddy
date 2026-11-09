@@ -1,0 +1,21 @@
+services:
+  - type: web
+    name: fitness-buddy
+    runtime: node
+    plan: free
+    buildCommand: npm install
+    startCommand: node server.js
+    healthCheckPath: /api/health
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: IBM_API_KEY
+        sync: false
+      - key: WATSONX_PROJECT_ID
+        sync: false
+      - key: WATSONX_BASE_URL
+        value: https://us-south.ml.cloud.ibm.com
+      - key: GRANITE_MODEL_ID
+        value: ibm/granite-4-h-small
+      - key: IBM_IAM_URL
+        value: https://iam.cloud.ibm.com/identity/token
