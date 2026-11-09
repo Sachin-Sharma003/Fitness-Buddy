@@ -34,3 +34,7 @@ build/
 *.tmp
 *.bak
 *.swp
+
+# -- Netlify / Vercel cache ---------------------
+.netlify/
+.vercel/
