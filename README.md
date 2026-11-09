@@ -74,7 +74,7 @@ npm run dev
 
 ### 5. Open the App
 
-Navigate to **(https://fitness-buddy-hd4z.onrender.com/)**
+Navigate to **(https://fittnessbuddy.netlify.app/)**
 
 ---
 
