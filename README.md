@@ -74,7 +74,7 @@ npm run dev
 
 ### 5. Open the App
 
-Navigate to **[http://localhost:3000](http://localhost:3000)**
+Navigate to **(https://fitness-buddy-hd4z.onrender.com/)**
 
 ---
 
