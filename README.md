@@ -121,4 +121,4 @@ Fitness Buddy provides general wellness information. It is **not** a substitute 
 
 ##  License
 
-MIT © AICTE Project 2024
+MIT © AICTE Project 2026
